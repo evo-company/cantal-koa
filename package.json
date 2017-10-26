@@ -1,0 +1,29 @@
+{
+  "name": "@evo/cantal-koa",
+  "version": "0.1.0",
+  "description": "Cantal metrics for koa.js framework",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel --out-dir ./dist index.js",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evo-company/cantal-koa.git"
+  },
+  "author": "sadkovoy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evo-company/cantal-koa/issues"
+  },
+  "homepage": "https://github.com/evo-company/cantal-koa#readme",
+  "peerDependencies": {
+    "@evo/cantal-js": "^0.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-preset-env": "^1.3.3"
+  }
+}

@@ -1,0 +1,8 @@
+.idea/
+dist
+.vagga
+node_modules
+.python-version
+*.log
+.vagrant
+compat
